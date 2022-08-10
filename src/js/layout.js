@@ -7,7 +7,7 @@ import { Demo } from "./views/demo";
 import { Single } from "./views/single";
 import injectContext from "./store/appContext";
 
-import { Navbar } from "./component/navbar";
+import { NavbarHead } from "./component/navbar";
 import { Footer } from "./component/footer";
 
 //create your first component
@@ -20,24 +20,26 @@ const Layout = () => {
 		<div>
 			<BrowserRouter basename={basename}>
 				<ScrollToTop>
-					<Navbar />
+					<NavbarHead />
 					<Switch>
 						<Route exact path="/">
 							<Home />
 						</Route>
-						<Route exact path="/demo">
-							<Demo />
+						<Route exact path="/:category">
+							<Demo element />
 						</Route>
-						<Route exact path="/single/:theid">
+						
+						<Route exact path="/:category/:id">
 							<Single />
 						</Route>
 						<Route>
 							<h1>Not found!</h1>
 						</Route>
 					</Switch>
-					<Footer />
+					
 				</ScrollToTop>
 			</BrowserRouter>
+			
 		</div>
 	);
 };

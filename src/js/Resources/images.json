@@ -1,0 +1,52 @@
+{
+    "message": "ok",
+    "total_records": 60,
+    "total_pages": null,
+    "default": "https://starwars-visualguide.com/assets/img/big-placeholder.jpg",
+    "results": [
+        {
+            "planets": [
+                {
+                    "uid": "1",
+                    "image": "https://starwars-visualguide.com/assets/img/planets/1.jpg"
+                },
+                {
+                    "uid": "2",
+                    "image": "https://starwars-visualguide.com/assets/img/planets/2.jpg"
+                },
+                {
+                    "uid": "3",
+                    "image": "https://starwars-visualguide.com/assets/img/planets/3.jpg"
+                },
+                {
+                    "uid": "4",
+                    "image": "https://starwars-visualguide.com/assets/img/planets/4.jpg"
+                },
+                {
+                    "uid": "5",
+                    "image": "https://starwars-visualguide.com/assets/img/planets/5.jpg"
+                },
+                {
+                    "uid": "6",
+                    "image": "https://starwars-visualguide.com/assets/img/planets/6.jpg"
+                },
+                {
+                    "uid": "7",
+                    "image": "https://starwars-visualguide.com/assets/img/planets/7.jpg"
+                },
+                {
+                    "uid": "8",
+                    "image": "https://starwars-visualguide.com/assets/img/planets/8.jpg"
+                },
+                {
+                    "uid": "9",
+                    "image": "https://starwars-visualguide.com/assets/img/planets/9.jpg"
+                },
+                {
+                    "uid": "10",
+                    "image": "https://starwars-visualguide.com/assets/img/planets/10.jpg"
+                }
+            ]
+        }
+    ]
+}
